@@ -1,0 +1,16 @@
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/bin/Debug/net5.0/listaserie
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/bin/Debug/net5.0/listaserie.deps.json
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/bin/Debug/net5.0/listaserie.runtimeconfig.json
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/bin/Debug/net5.0/listaserie.runtimeconfig.dev.json
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/bin/Debug/net5.0/listaserie.dll
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/bin/Debug/net5.0/ref/listaserie.dll
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/bin/Debug/net5.0/listaserie.pdb
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/obj/Debug/net5.0/listaserie.csprojAssemblyReference.cache
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/obj/Debug/net5.0/listaserie.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/obj/Debug/net5.0/listaserie.AssemblyInfoInputs.cache
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/obj/Debug/net5.0/listaserie.AssemblyInfo.cs
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/obj/Debug/net5.0/listaserie.csproj.CoreCompileInputs.cache
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/obj/Debug/net5.0/listaserie.dll
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/obj/Debug/net5.0/ref/listaserie.dll
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/obj/Debug/net5.0/listaserie.pdb
+/home/gabriel/Documentos/primeiro projeto/minha versao/listaserie/obj/Debug/net5.0/listaserie.genruntimeconfig.cache
