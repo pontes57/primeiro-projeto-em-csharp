@@ -28,6 +28,9 @@ namespace DIO.Series
 					case "5":
 						VisualizarSerie();
 						break;
+					case "6":
+						pesquisa();
+						break;
 					case "C":
 						Console.Clear();
 						break;
@@ -165,6 +168,10 @@ namespace DIO.Series
 			repositorio.Insere(novaSerie);
 		}
 
+		private static void pesquisa(){
+			repositorio.pesquisa();
+		}
+
         private static string ObterOpcaoUsuario()
 		{
 			Console.WriteLine();
@@ -176,6 +183,7 @@ namespace DIO.Series
 			Console.WriteLine("3- Atualizar série");
 			Console.WriteLine("4- Excluir série");
 			Console.WriteLine("5- Visualizar série");
+			Console.WriteLine("6- pesquisa por alguma caracteristica");
 			Console.WriteLine("C- Limpar Tela");
 			Console.WriteLine("X- Sair");
 			Console.WriteLine();

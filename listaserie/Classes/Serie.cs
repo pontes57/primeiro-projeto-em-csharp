@@ -45,6 +45,14 @@ namespace DIO.Series
 			return this.Titulo;
 		}
 
+		public int retornaano(){
+			return this.Ano;
+		}
+
+		public int retornagenero(){
+			return (int)Genero;
+		}
+
 		public int retornaId()
 		{
 			return this.Id;
