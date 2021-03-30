@@ -84,11 +84,22 @@ namespace DIO.Series
 			Console.Write("Digite a Descrição da Série: ");
 			string entradaDescricao = Console.ReadLine();
 
+			Console.Write("Digite o numero de episodos da serie: ");
+			int entradaNumEpi = int.Parse(Console.ReadLine());
+
+			Console.Write("e' uma animacao? (S/N) ");
+			string SN = Console.ReadLine();
+			bool isa=false;
+			if (SN.ToUpper()=="S")
+				isa=true;
+
 			Serie atualizaSerie = new Serie(id: indiceSerie,
 										genero: (Genero)entradaGenero,
 										titulo: entradaTitulo,
 										ano: entradaAno,
-										descricao: entradaDescricao);
+										descricao: entradaDescricao,
+										NumEpi: entradaNumEpi,
+										isanimacao: isa);
 
 			repositorio.Atualiza(indiceSerie, atualizaSerie);
 		}
@@ -134,11 +145,22 @@ namespace DIO.Series
 			Console.Write("Digite a Descrição da Série: ");
 			string entradaDescricao = Console.ReadLine();
 
+			Console.Write("Digite o numero de episodos da serie: ");
+			int entradaNumEpi = int.Parse(Console.ReadLine());
+
+			Console.Write("e' uma animacao? (S/N) ");
+			string SN = Console.ReadLine();
+			bool isa=false;
+			if (SN.ToUpper()=="S")
+				isa=true;
+
 			Serie novaSerie = new Serie(id: repositorio.ProximoId(),
 										genero: (Genero)entradaGenero,
 										titulo: entradaTitulo,
 										ano: entradaAno,
-										descricao: entradaDescricao);
+										descricao: entradaDescricao,
+										NumEpi: entradaNumEpi,
+										isanimacao: isa);
 
 			repositorio.Insere(novaSerie);
 		}

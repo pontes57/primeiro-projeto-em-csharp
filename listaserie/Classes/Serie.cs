@@ -10,9 +10,11 @@ namespace DIO.Series
 		private string Descricao { get; set; }
 		private int Ano { get; set; }
         private bool Excluido {get; set;}
+		private int NumEpi {get; set;}
+		private bool isanimacao {get; set;}
 
         // Métodos
-		public Serie(int id, Genero genero, string titulo, string descricao, int ano)
+		public Serie(int id, Genero genero, string titulo, string descricao, int ano,int NumEpi,bool isanimacao)
 		{
 			this.Id = id;
 			this.Genero = genero;
@@ -20,6 +22,8 @@ namespace DIO.Series
 			this.Descricao = descricao;
 			this.Ano = ano;
             this.Excluido = false;
+			this.NumEpi=NumEpi;
+			this.isanimacao=isanimacao;
 		}
 
         public override string ToString()
@@ -30,6 +34,8 @@ namespace DIO.Series
             retorno += "Titulo: " + this.Titulo + Environment.NewLine;
             retorno += "Descrição: " + this.Descricao + Environment.NewLine;
             retorno += "Ano de Início: " + this.Ano + Environment.NewLine;
+			retorno += "Numero de episodios da serie: " + this.NumEpi + Environment.NewLine;
+			retorno += "e' animacao: " + this.isanimacao + Environment.NewLine;
             retorno += "Excluido: " + this.Excluido;
 			return retorno;
 		}
@@ -50,5 +56,13 @@ namespace DIO.Series
         public void Excluir() {
             this.Excluido = true;
         }
+		public int retornaNumEpi()
+		{
+			return this.NumEpi;
+		}
+		 public bool retornaisanimacao()
+		{
+			return this.isanimacao;
+		}
     }
 }
